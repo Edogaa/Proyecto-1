@@ -4,18 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombre Apellido</title>
-
-    <!-- CSS -->
+    <title>Edgar Ballén</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <a href="#inicio">Tu nombre</a>     
+        <a href="#logo-header">Edgar Ballén</a>
+        <nav>
+            <ul id="menu">
+                <li class="menu-item">
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
-    <!-- En este archivo escriban su HTML -->
+    <main>
+        <section id="inicio">
+            <figure class="presentacion-img">
+                <img src="https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"" 
+                alt="Edgar">
+            </figure>
+            <article class="presentacion">
+                <h1>Hola! Soy Edgar</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam ratione cum, facere quos repudiandae sit enim voluptas vero earum dicta, quam repellat aliquid, fugiat ad ex quod accusamus! Tempora adipisci magnam, quasi magni iusto incidunt at iste laborum delectus. Voluptas ex architecto voluptatibus in vitae sapiente inventore pariatur libero?</p>
+                <a href="cv/prueba_cv.pdf" aria-label="Descargar CV" class="boton" download>Descargar mi CV</a>
+            </article>
+        </section>
 
+        <section id="contacto">
+            
+            <article class="hablemos">
+                <h2>Hablemos!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam ratione cum, facere quos repudiandae sit enim voluptas vero earum dicta, quam repellat aliquid, fugiat ad ex quod accusamus! Tempora adipisci magnam, quasi magni iusto incidunt at iste laborum delectus. Voluptas ex architecto voluptatibus in vitae sapiente inventore pariatur libero?</p>
+            </article>
+
+            <nav>
+                <ul class="iconos">
+                  <li><a href="mailto:correo@ejemplo.com"><img src="img/mail.png" alt="Mail"></a></li>
+                  <li><a href="https://github.com"><img src="img/github.png" alt="Github"></a></li>
+                  <li><a href="https://www.linkedin.com"><img src="img/linkedin.png" alt="LinkedIn"></a></li>
+                </ul>
+            </nav>
+              
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Código Latam</p>
+    </footer>
+    
 </body>
 </html>
